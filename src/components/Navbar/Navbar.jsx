@@ -18,7 +18,7 @@ function Navbar() {
                 <li>Experience</li>
             </ul>
         </div>
-        <button className="button">Contact Me</button>
+        <button className="button n-button">Contact Me</button>
       </div>
    </div>
 
