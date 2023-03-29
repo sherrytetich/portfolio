@@ -9,6 +9,7 @@ import boy from '../../img/boy.png';
 import thumbup from '../../img/thumbup.png';
 import Crown from '../../img/crown.png';
 import glassesimoji from '../../img/glassesimoji.png';
+import FloatingDiv from '../FloatingDiv/Floatingdiv'
 function Intro() {
   return (
     <div className="intro">
@@ -31,9 +32,9 @@ function Intro() {
             <img src={Vector1} alt="" />
             <img src={Vector2} alt="" />
             <img src={boy} alt="" />
-            <img src={thumbup} alt="" />
-            <img src={Crown} alt="" />
-            <img src={glassesimoji} alt="" />
+            <div>
+                <FloatingDiv image={Crown}/>
+            </div>
         </div>
     </div>  
   );
