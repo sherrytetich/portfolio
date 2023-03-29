@@ -43,6 +43,14 @@
 .i-icons>*{
     transform: scale(0.5);
 }
+.i-icons>*:hover{
+    cursor: pointer;
+}
 .i-right{
     flex: 1;
+    position: relative;
+}
+.i-right>*{
+    position: absolute;
+    z-index: 1;
 }
