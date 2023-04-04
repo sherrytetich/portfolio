@@ -1,13 +1,13 @@
 import React from 'react';
 
-function Floatingdiv({image}) {
+function Floatingdiv({image, txt1,txt2}) {
   return (
     <div className="floatingdiv">
         <img src={image} alt="" />
         <span>
-            Web
+           {txt1}
              <br />
-             Developer
+             {txt2}
         </span>
     </div>
   );
